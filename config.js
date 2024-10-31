@@ -7,7 +7,7 @@ if (fs.existsSync('config.env')) {
   });
 };
 
-global.api = process.env.API_URL || 'https://nervous-rosamond-jarvis-bot-99587a26.koyeb.app/';
+global.api = process.env.API_URL || 'regular-ape-cyberhaze-61d74b2f.koyeb.app/';
 
 const toBool = (x) => x === 'true';
 const DATABASE_URL = process.env.DATABASE_URL === undefined ? "./database.db" : process.env.DATABASE_URL
