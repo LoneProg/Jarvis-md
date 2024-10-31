@@ -46,7 +46,7 @@
         "WORK_TYPE": {
             "description": "worker type public or private",
             "required": true,
-            "value":"private"
+            "value":"public"
         },
         "HEROKU_APP_NAME": {
             "description": "heroku app name, same as above entered",
@@ -64,12 +64,12 @@
         "SUDO": {
             "description": "owner number of the bot",
             "required": false,
-            "value":"4915252819677"
+            "value":"2348142778000"
         },
         "ALLWAYS_ONLINE": {
             "description": "show bot number last seen as online",
             "required": false,
-            "value":"false"
+            "value":"true"
         },
         "READ_MSG": {
             "description": "Read all messages",
@@ -79,12 +79,12 @@
         "SAVE_STATUS": {
             "description": "save all status message",
             "required": false,
-            "value":"null"
+            "value":"true"
         },
         "STATUS_VIEW": {
             "description": "status views use true for view all status or use only-view=jid to only view given jid status or use not-view=jid to not view the one person status and view anothers",
             "required": false,
-            "value":"false"
+            "value":"true"
         },
         "REJECT_CALL": {
             "description": "automatic reject call",
